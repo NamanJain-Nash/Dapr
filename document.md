@@ -8,7 +8,7 @@ In very brief it make us able to manage , configure , Observe and Secure the API
 
 It uses Side Car Pattern to integrate the application where the sidecar and the Application COmmunicate using HTPP/gRRC over the local host 
 </p>
-
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*BhaMxzQb6KnsgZnr8POGoA.png"/>
 
 <p>
 The Building blocks provide implemnetation for micro services best plactices without much work.
@@ -46,4 +46,6 @@ Make use of Highly Responsive and Data Cosistent
 <p>It make a integrated logging capabilites.
 It enables the API logging with the --enable-API-logging switch.
 
-Enabiliing profiling in Dapr wioll create an endpoint , From where we can </p>
+Enabiling profiling in Dapr wioll create an endpoint , From where we can easily route the Telemetry. </p>
+
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*vCKJ69hYs0IPfAfhuUJl9A.png"/>
