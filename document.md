@@ -49,3 +49,26 @@ It enables the API logging with the --enable-API-logging switch.
 Enabiling profiling in Dapr wioll create an endpoint , From where we can easily route the Telemetry. </p>
 
 <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*vCKJ69hYs0IPfAfhuUJl9A.png"/>
+
+
+## Depyloyment of the services
+
+<p>We will make that one system should have a engine in a way to run the dapr.
+
+To start we need dapr cli be their.
+
+To start the main use dapr init to start the dapr and its container.
+</p>
+<p>ow we’ll run it with the Dapr sidecar.
+
+dapr run --app-id helloworldfuncdapr --app-port 7071 --dapr-http-port 7070 func start
+
+Let’s break this down:
+
+--app-id helloworldfuncdapr is an arbitrary app identifier which will become part of the service URL
+--app-port 7071 is the port where the app will communicate with Dapr
+--dapr-http-port 7070 is where Dapr exposes the application port (7071 in this case) via the sidecar</p>
+
+### Intigrate the Azure Functions and its use case
+
+<p>We would be using the azure Http basic function</p>
